@@ -2,10 +2,10 @@ import React from 'react';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Bio from './pages/bio';
-import Work from './pages/work';
-import contactForm from './pages/contactForm';
-import Resume from './pages/resume';
+import Bio from './components/pages/bio';
+import Work from './components/pages/work';
+import contactForm from './components/pages/contactForm';
+import Resume from './components/pages/resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
   

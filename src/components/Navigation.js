@@ -1,7 +1,7 @@
 import React from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
 
-const Navigation = () => {
+export default function Navigation () {
 	return (
 		<>
 			<Navbar collapseOnSelect sticky='top' expand='sm' bg='dark' variant='dark' className='header'>
@@ -20,4 +20,3 @@ const Navigation = () => {
 	);
 };
 
-export default Navigation;
