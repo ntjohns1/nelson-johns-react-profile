@@ -1,6 +1,6 @@
 import React from 'react';
 import Project from '../Project';
-import CardGroup from 'react-bootstrap/CardGroup';
+import { Container, CardGroup, Row, Col } from 'react-bootstrap';
 
 const projects = [
     {
@@ -53,12 +53,12 @@ const renderProjects = () => {
 
 export default function Work() {
     return (
-        <CardGroup className="row w=100 p-0 m-0" id="work">
-            <div className="col">
-                <div className="row">
-                {renderProjects()}
-                </div>
-            </div>
-        </CardGroup>
+        <Container>
+            <CardGroup id="work">
+                <Row xs={1} md={2}>
+                    {renderProjects()}
+                </Row>
+            </CardGroup>
+        </Container>
     );
 };
