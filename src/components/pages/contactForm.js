@@ -1,25 +1,33 @@
 import React, { useState } from 'react';
+import { Form, Button, Card } from 'react-bootstrap';
 
-export default function Form() {
+export default function ContactForm() {
   // Here we set two state variables for firstName and lastName using `useState`
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
-//   const handleInputChange = (e) => {
-//     // Getting the value and name of the input which triggered the change
-//     const { name, value } = e.target;
+  const handleInputChange = (e) => {
+    // Getting the value and name of the input which triggered the change
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
 
-//     // Ternary statement that will call either setFirstName or setLastName based on what field the user is typing in
-//     return name === 'firstName' ? setFirstName(value) : setLastName(value);
-//   };
+    // Based on the input type, we set the state of either email, username, and password
+    if (inputType === 'firstName') {
+      setFirstName(inputValue);
+    } else if (inputType === 'lastName') {
+      setLastName(inputValue);
+    } else if (inputType === 'email') {
+      setEmail(inputValue);
+    } else {
+      setMessage(inputValue);
+    }
+  };
 
   const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
-
-    // Alert the user their first and last name, clear the inputs
     setFirstName('');
     setLastName('');
     setEmail('');
@@ -27,36 +35,28 @@ export default function Form() {
   };
 
   return (
-    <div>
-      <form className="form">
-        <input
-          value={firstName}
-          name="firstName"
-          type="text"
-          placeholder="First Name"
-        />
-        <input
-          value={lastName}
-          name="lastName"
-          type="text"
-          placeholder="Last Name"
-        />
-        <input
-          value={email}
-          name="email"
-          type="email"
-          placeholder="email"
-        />
-        <textarea
-          value={message}
-          name="message"
-          type="text"
-          placeholder="message"
-        />
-        <button type="button" onClick={handleFormSubmit}>
+    <Card>
+      <Form>
+        <Form.Group controlId="formFirstName">
+          <Form.Label>First Name</Form.Label>
+          <Form.Control value={firstName} name='firstName' onChange={handleInputChange} type="text" placeholder="First Name" />
+        </Form.Group>
+        <Form.Group controlId="formLastName">
+          <Form.Label>Last Name</Form.Label>
+          <Form.Control value={lastName} name='lastName' onChange={handleInputChange} type="text" placeholder="Last Name" />
+        </Form.Group>
+        <Form.Group controlId="formBasicEmail">
+          <Form.Label>Email address</Form.Label>
+          <Form.Control value={email} name='email' onChange={handleInputChange} type="email" placeholder="Enter email" />
+        </Form.Group>
+        <Form.Group controlId="exampleForm.ControlTextarea1">
+          <Form.Label>Message</Form.Label>
+          <Form.Control value={message} name='message' onChange={handleInputChange} as="textarea" rows={3} />
+        </Form.Group>
+        <Button href='mailto:nelsontjohns@gmail.com' variant="primary" type="submit" onClick={handleFormSubmit}>
           Submit
-        </button>
-      </form>
-    </div>
+        </Button>
+      </Form>
+    </Card>
   );
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
-import samplePDF from './portfolioResume.pdf';
+import portfolioResume from './portfolioResume.pdf';
 // import {Navbar, Nav} from 'react-bootstrap';
 
 export default function Resume() {
@@ -13,7 +13,8 @@ export default function Resume() {
 
   return (
     <Document
-      file={samplePDF}
+      className='row'
+      file={portfolioResume}
       onLoadSuccess={onDocumentLoadSuccess}
     >
       {Array.from(
