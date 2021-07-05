@@ -7,8 +7,13 @@ import Work from './components/pages/work';
 import contactForm from './components/pages/contactForm';
 import Resume from './components/pages/resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
 import './App.css';
-  
+
+library.add(fab);
+
 export default function App() {
   return (
     <Router>
