@@ -35,7 +35,7 @@ export default function ContactForm() {
   };
 
   return (
-    <Container className='my-2'>
+    <Container >
       <Card>
         <Card.Body>
         <Card.Title>Contact Me</Card.Title>

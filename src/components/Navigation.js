@@ -1,15 +1,21 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
+import {Navbar, Nav} from 'react-bootstrap';
 
-export default function Navigation() {
+export default function Navigation () {
 	return (
 		<>
-			<Nav className='mr-auto'>
-				<Nav.Link href='/'><h3>About Me</h3></Nav.Link>
-				<Nav.Link href='/work'><h3>Portfolio</h3></Nav.Link>
-				<Nav.Link href='/contact'><h3>Contact</h3></Nav.Link>
-				<Nav.Link href='/resume'><h3>Resume</h3></Nav.Link>
-			</Nav>
+			<Navbar collapseOnSelect sticky='top' expand='sm' bg='dark' variant='dark' className='header'>
+				{/* <Navbar.Brand className='header-nav'>Nelson Johns</Navbar.Brand> */}
+				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+				<Navbar.Collapse id='responsive-navbar-nav'>
+					<Nav className='mr-auto'>
+						<Nav.Link href='/'>About Me</Nav.Link>
+						<Nav.Link href='/work'>Portfolio</Nav.Link>
+						<Nav.Link href='/contact'>Contact</Nav.Link>
+						<Nav.Link href='/resume'>Resume</Nav.Link>
+					</Nav>
+				</Navbar.Collapse>
+			</Navbar>
 		</>
 	);
 };

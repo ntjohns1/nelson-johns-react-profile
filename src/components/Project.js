@@ -1,6 +1,5 @@
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Button, Card, Col } from 'react-bootstrap';
 
 // xs={6} md={2}
 const Project = ({ project }) => {
@@ -10,12 +9,12 @@ const Project = ({ project }) => {
                 <Card className="d-flex justify-content-center">
                     <Card.Body>
                         <a href={project.deployed}>
-                            <Card.Title><h2>{project.name}</h2></Card.Title>
+                            <Card.Title>{project.name}</Card.Title>
                             <Card.Img src={project.image} alt={project.description}></Card.Img>
                         </a>
                     </Card.Body>
                     <Card.Footer className="card-footer">
-                        <Link href={project.repo}>Repo</Link>
+                        <Button className="foot-button" variant="secondary" href={project.repo}>Repo</Button>
                     </Card.Footer>
                 </Card>
             </Col>
