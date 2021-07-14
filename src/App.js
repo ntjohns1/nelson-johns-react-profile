@@ -2,10 +2,10 @@ import React from 'react';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Bio from './components/pages/bio';
-import Work from './components/pages/work';
-import ContactForm from './components/pages/contactForm';
-import Resume from './components/pages/resume';
+import Bio from './pages/bio';
+import Work from './pages/work';
+import ContactForm from './pages/contactForm';
+import Resume from './pages/resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'

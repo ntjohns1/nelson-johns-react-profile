@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "SourceSerifPro";
+  src: local("SourceSerifPro"),
+   url("./fonts/Source_Serif_Pro/SourceSerifPro-Black.ttf") format("truetype");
+  font-weight: black;
+ }
+
+ @font-face {
+  font-family: "LibreFranklin";
+  src: local("LibreFranklin"),
+   url("./fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf") format("truetype");
+ }
