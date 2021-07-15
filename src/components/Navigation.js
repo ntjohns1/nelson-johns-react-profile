@@ -1,22 +1,20 @@
 import React from 'react';
-import {Navbar, Nav} from 'react-bootstrap';
+import { Nav, Container } from 'react-bootstrap';
 
-export default function Navigation () {
+const styles = {
+	link: {
+		color: '#FFFFFF'
+	}
+}
+
+export default function Navigation() {
 	return (
-		<>
-			<Navbar collapseOnSelect sticky='top' expand='sm' bg='dark' variant='dark' className='header'>
-				{/* <Navbar.Brand className='header-nav'>Nelson Johns</Navbar.Brand> */}
-				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
-				<Navbar.Collapse id='responsive-navbar-nav'>
-					<Nav className='mr-auto'>
-						<Nav.Link href='/'>About Me</Nav.Link>
-						<Nav.Link href='/work'>Portfolio</Nav.Link>
-						<Nav.Link href='/contact'>Contact</Nav.Link>
-						<Nav.Link href='/resume'>Resume</Nav.Link>
-					</Nav>
-				</Navbar.Collapse>
-			</Navbar>
-		</>
+			<Nav>
+				<Nav.Link href='/' className='font-face-lf' style={styles.link}>About Me</Nav.Link>
+				<Nav.Link href='/work' className='font-face-lf' style={styles.link}>Portfolio</Nav.Link>
+				<Nav.Link href='/contact' className='font-face-lf' style={styles.link}>Contact</Nav.Link>
+				<Nav.Link href='/resume' className='font-face-lf' style={styles.link}>Resume</Nav.Link>
+			</Nav>
 	);
 };
 
