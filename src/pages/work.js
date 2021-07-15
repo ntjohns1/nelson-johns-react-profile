@@ -6,37 +6,37 @@ import { Container, CardGroup, Row } from 'react-bootstrap';
 const projects = [
     {
         name: 'Music Notes',
-        image: '../images/MusicNotes.png',
+        image: '../public/images/MusicNotes.png',
         deployed: 'https://uncbootcampmusicnotes.herokuapp.com/',
         repo: 'https://github.com/ntjohns1/Music-Notes'
     },
     {
         name: 'Tabletop Auction House',
-        image: '../images/TTAH.png',
+        image: '../public/images/TTAH.png',
         deployed: 'https://github.com/smakela13/tabletop-auction-house-react-edition',
         repo: 'https://github.com/smakela13/tabletop-auction-house-react-edition'
     },
     {
         name: 'Stock News',
-        image: '../images/StockNews.png',
+        image: '../public/images/StockNews.png',
         deployed: 'https://ntjohns1.github.io/-tock-News/',
         repo: 'https://github.com/ntjohns1/-tock-News'
     },
     {
         name: 'Fitness Tracker',
-        image: '../images/FitnessTracker.png',
+        image: '../public/images/FitnessTracker.png',
         deployed: 'https://github.com/ntjohns1/Fitness-Tracker',
         repo: 'https://github.com/ntjohns1/Fitness-Tracker'
     },
     {
         name: 'Tech Blog',
-        image: '../images/TechBlog.png',
+        image: '../public/images/TechBlog.png',
         deployed: 'https://infinite-atoll-74792.herokuapp.com/',
         repo: 'https://github.com/ntjohns1/tech-blog'
     },
     {
         name: 'Note Taker',
-        image: '../images/NoteTaker.png',
+        image: '../public/images/NoteTaker.png',
         deployed: 'https://evening-savannah-32907.herokuapp.com/',
         repo: 'https://github.com/ntjohns1/Note_Taker'
     },
