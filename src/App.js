@@ -21,10 +21,10 @@ export default function App() {
       <div className ="sec-div">
         <Header />
         <Switch>
-          <Route path='/' exact component={Bio} />
-          <Route path='/work' component={Work} />
-          <Route path='/contact' component={ContactForm} />
-          <Route path='/resume' component={Resume} />
+          <Route path={process.env.PUBLIC_URL + '/'} exact component={Bio} />
+          <Route path={process.env.PUBLIC_URL + '/work'} component={Work} />
+          <Route path={process.env.PUBLIC_URL + '/contact'} component={ContactForm} />
+          <Route path={process.env.PUBLIC_URL + '/resume'} component={Resume} />
         </Switch>
         <Footer />
       </div>
