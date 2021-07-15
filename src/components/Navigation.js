@@ -3,18 +3,36 @@ import { Nav, Container } from 'react-bootstrap';
 
 const styles = {
 	link: {
-		color: '#FFFFFF'
+		color: '#FFFFFF',
+		fontFamily: 'LibreFrankilin'
 	}
 }
 
-export default function Navigation() {
+export default function Navigation({ currentPage, handlePageChange }) {
 	return (
-			<Nav>
-				<Nav.Link href='/' className='font-face-lf' style={styles.link}>About Me</Nav.Link>
-				<Nav.Link href='/work' className='font-face-lf' style={styles.link}>Portfolio</Nav.Link>
-				<Nav.Link href='/contact' className='font-face-lf' style={styles.link}>Contact</Nav.Link>
-				<Nav.Link href='/resume' className='font-face-lf' style={styles.link}>Resume</Nav.Link>
-			</Nav>
+		<Nav>
+			<Nav.Link
+				onClick={() => handlePageChange('/')}
+				className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+				style={styles.link}>About Me
+			</Nav.Link>
+			<Nav.Link
+				onClick={() => handlePageChange('work')}
+				className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+				style={styles.link}>Portfolio</Nav.Link>
+			<Nav.Link
+				onClick={() => handlePageChange('contact')}
+				className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+				style={styles.link}>
+				Contact
+			</Nav.Link>
+			<Nav.Link
+				onClick={() => handlePageChange('resume')} 
+				className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+				style={styles.link}>
+				Resume
+			</Nav.Link>
+		</Nav>
 	);
 };
 

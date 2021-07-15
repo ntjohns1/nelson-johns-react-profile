@@ -8,7 +8,7 @@ const styles = {
     }
 }
 
-export default function Header() {
+export default function Header({ currentPage, handlePageChange }) {
     return (
         <Navbar className='navbar' expand='lg'>
             <Container className='d-flex justify-content-center'>
@@ -18,7 +18,7 @@ export default function Header() {
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                <Nav />
+                <Nav currentPage={currentPage} handlePageChange={handlePageChange}/>
                 </Navbar.Collapse>
                 </div>
             </Container>

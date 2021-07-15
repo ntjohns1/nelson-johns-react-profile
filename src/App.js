@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Bio from './pages/bio';
 import Work from './pages/work';
 import ContactForm from './pages/contactForm';
@@ -12,25 +11,44 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 
 
 import './App.css';
+import { useState } from 'react';
+
 
 library.add(fab);
 
 export default function App() {
+
+  const [ currentPage, setCurrentPage] = useState('/')
+
+  const renderPage = () => {
+    if (currentPage === '/') {
+      return <Bio />;
+    }
+    if (currentPage === 'work') {
+      return <Work />;
+    }
+    if (currentPage === 'contact') {
+      return <ContactForm />;
+    }
+    if (currentPage === 'resume') {
+      return <Resume />;
+    }
+    return <Bio />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <Router>
-      <div className ="sec-div">
-        <Header />
-        <Switch>
-          <Route path={process.env.PUBLIC_URL + '/'} exact component={Bio} />
-          <Route path={process.env.PUBLIC_URL + '/work'} component={Work} />
-          <Route path={process.env.PUBLIC_URL + '/contact'} component={ContactForm} />
-          <Route path={process.env.PUBLIC_URL + '/resume'} component={Resume} />
-        </Switch>
-        <Footer />
-      </div>
-    </Router>
+    <div>
+      {/* We are passing the currentPage from state and the function to update it */}
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* Here we are calling the renderPage method which will return a component  */}
+      {renderPage()}
+      <Footer />
+    </div>
   );
+
 };
 
-  
+
 
