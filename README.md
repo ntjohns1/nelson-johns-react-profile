@@ -23,7 +23,7 @@ This is a profile buillt with react showcasing the work I did while attending th
 ---
 
 ## Usage
-Deployed link: https://salty-dawn-77446.herokuapp.com// <br>
+Deployed link: https://ntjohns1.github.io/nelson-johns-react-profile/ <br>
 Github Repo Link: https://github.com/ntjohns1/nelson-johns-react-profile
 
 <img src="./public/images/profileScreenshot.png" alt="nelson-johns-profile" width="auto" height="200">
