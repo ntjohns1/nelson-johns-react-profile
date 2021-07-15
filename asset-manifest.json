@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/nelson-johns-react-profile/static/css/main.74b4f49a.chunk.css",
-    "main.js": "/nelson-johns-react-profile/static/js/main.56680870.chunk.js",
-    "main.js.map": "/nelson-johns-react-profile/static/js/main.56680870.chunk.js.map",
+    "main.js": "/nelson-johns-react-profile/static/js/main.105c851d.chunk.js",
+    "main.js.map": "/nelson-johns-react-profile/static/js/main.105c851d.chunk.js.map",
     "runtime-main.js": "/nelson-johns-react-profile/static/js/runtime-main.d68dafd2.js",
     "runtime-main.js.map": "/nelson-johns-react-profile/static/js/runtime-main.d68dafd2.js.map",
     "static/css/2.b5ddc713.chunk.css": "/nelson-johns-react-profile/static/css/2.b5ddc713.chunk.css",
-    "static/js/2.7206a8a4.chunk.js": "/nelson-johns-react-profile/static/js/2.7206a8a4.chunk.js",
-    "static/js/2.7206a8a4.chunk.js.map": "/nelson-johns-react-profile/static/js/2.7206a8a4.chunk.js.map",
-    "1a19614ae0c88b887508692424a91aaf.js": "/nelson-johns-react-profile/1a19614ae0c88b887508692424a91aaf.js",
-    "1a19614ae0c88b887508692424a91aaf.js.LICENSE.txt": "/nelson-johns-react-profile/1a19614ae0c88b887508692424a91aaf.js.LICENSE.txt",
+    "static/js/2.d3cf5c00.chunk.js": "/nelson-johns-react-profile/static/js/2.d3cf5c00.chunk.js",
+    "static/js/2.d3cf5c00.chunk.js.map": "/nelson-johns-react-profile/static/js/2.d3cf5c00.chunk.js.map",
+    "9bc31d9a6080b8494f67d4a538ef6ecd.js": "/nelson-johns-react-profile/9bc31d9a6080b8494f67d4a538ef6ecd.js",
+    "9bc31d9a6080b8494f67d4a538ef6ecd.js.LICENSE.txt": "/nelson-johns-react-profile/9bc31d9a6080b8494f67d4a538ef6ecd.js.LICENSE.txt",
     "index.html": "/nelson-johns-react-profile/index.html",
     "static/css/2.b5ddc713.chunk.css.map": "/nelson-johns-react-profile/static/css/2.b5ddc713.chunk.css.map",
     "static/css/main.74b4f49a.chunk.css.map": "/nelson-johns-react-profile/static/css/main.74b4f49a.chunk.css.map",
-    "static/js/2.7206a8a4.chunk.js.LICENSE.txt": "/nelson-johns-react-profile/static/js/2.7206a8a4.chunk.js.LICENSE.txt",
+    "static/js/2.d3cf5c00.chunk.js.LICENSE.txt": "/nelson-johns-react-profile/static/js/2.d3cf5c00.chunk.js.LICENSE.txt",
     "static/media/index.css": "/nelson-johns-react-profile/static/media/SourceSerifPro-Regular.6f22301c.ttf",
     "static/media/portfolioResume.cb2eb47e.pdf": "/nelson-johns-react-profile/static/media/portfolioResume.cb2eb47e.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.d68dafd2.js",
     "static/css/2.b5ddc713.chunk.css",
-    "static/js/2.7206a8a4.chunk.js",
+    "static/js/2.d3cf5c00.chunk.js",
     "static/css/main.74b4f49a.chunk.css",
-    "static/js/main.56680870.chunk.js"
+    "static/js/main.105c851d.chunk.js"
   ]
 }
