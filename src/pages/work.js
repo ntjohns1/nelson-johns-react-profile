@@ -11,37 +11,37 @@ import noteTaker from '../images/NoteTaker.png'
 const projects = [
     {
         name: 'Music Notes',
-        image: {musicNotes},
+        image: musicNotes,
         deployed: 'https://uncbootcampmusicnotes.herokuapp.com/',
         repo: 'https://github.com/ntjohns1/Music-Notes'
     },
     {
         name: 'Tabletop Auction House',
-        image: {ttah},
+        image: ttah,
         deployed: 'https://github.com/smakela13/tabletop-auction-house-react-edition',
         repo: 'https://github.com/smakela13/tabletop-auction-house-react-edition'
     },
     {
         name: 'Stock News',
-        image: {stockNews},
+        image: stockNews,
         deployed: 'https://ntjohns1.github.io/-tock-News/',
         repo: 'https://github.com/ntjohns1/-tock-News'
     },
     {
         name: 'Fitness Tracker',
-        image: {fitnessTracker},
+        image: fitnessTracker,
         deployed: 'https://github.com/ntjohns1/Fitness-Tracker',
         repo: 'https://github.com/ntjohns1/Fitness-Tracker'
     },
     {
         name: 'Tech Blog',
-        image: {techBlog},
+        image: techBlog,
         deployed: 'https://infinite-atoll-74792.herokuapp.com/',
         repo: 'https://github.com/ntjohns1/tech-blog'
     },
     {
         name: 'Note Taker',
-        image: {noteTaker},
+        image: noteTaker,
         deployed: 'https://evening-savannah-32907.herokuapp.com/',
         repo: 'https://github.com/ntjohns1/Note_Taker'
     },
