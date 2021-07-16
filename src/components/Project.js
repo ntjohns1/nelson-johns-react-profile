@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 // xs={6} md={2}
 const Project = ({ project }) => {
-    if (project) {
         return (
             <Col >
                 <Card className="m-3 d-flex justify-content-center">
@@ -21,9 +20,6 @@ const Project = ({ project }) => {
             </Col>
         );
     }
-
-    return null;
-}
 
 
 export default Project;

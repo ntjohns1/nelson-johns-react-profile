@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import portfolioResume from './portfolioResume.pdf';
-// import {Navbar, Nav} from 'react-bootstrap';
 
 export default function Resume() {
     const [numPages, setNumPages] = useState(null);
