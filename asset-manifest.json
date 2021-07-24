@@ -1,19 +1,17 @@
 {
   "files": {
     "main.css": "/nelson-johns-react-profile/static/css/main.a9f55ad3.chunk.css",
-    "main.js": "/nelson-johns-react-profile/static/js/main.eae8d4bf.chunk.js",
-    "main.js.map": "/nelson-johns-react-profile/static/js/main.eae8d4bf.chunk.js.map",
+    "main.js": "/nelson-johns-react-profile/static/js/main.ad6d466b.chunk.js",
+    "main.js.map": "/nelson-johns-react-profile/static/js/main.ad6d466b.chunk.js.map",
     "runtime-main.js": "/nelson-johns-react-profile/static/js/runtime-main.d68dafd2.js",
     "runtime-main.js.map": "/nelson-johns-react-profile/static/js/runtime-main.d68dafd2.js.map",
     "static/css/2.b5ddc713.chunk.css": "/nelson-johns-react-profile/static/css/2.b5ddc713.chunk.css",
-    "static/js/2.c294578c.chunk.js": "/nelson-johns-react-profile/static/js/2.c294578c.chunk.js",
-    "static/js/2.c294578c.chunk.js.map": "/nelson-johns-react-profile/static/js/2.c294578c.chunk.js.map",
-    "9bc31d9a6080b8494f67d4a538ef6ecd.js": "/nelson-johns-react-profile/9bc31d9a6080b8494f67d4a538ef6ecd.js",
-    "9bc31d9a6080b8494f67d4a538ef6ecd.js.LICENSE.txt": "/nelson-johns-react-profile/9bc31d9a6080b8494f67d4a538ef6ecd.js.LICENSE.txt",
+    "static/js/2.b60d3807.chunk.js": "/nelson-johns-react-profile/static/js/2.b60d3807.chunk.js",
+    "static/js/2.b60d3807.chunk.js.map": "/nelson-johns-react-profile/static/js/2.b60d3807.chunk.js.map",
     "index.html": "/nelson-johns-react-profile/index.html",
     "static/css/2.b5ddc713.chunk.css.map": "/nelson-johns-react-profile/static/css/2.b5ddc713.chunk.css.map",
     "static/css/main.a9f55ad3.chunk.css.map": "/nelson-johns-react-profile/static/css/main.a9f55ad3.chunk.css.map",
-    "static/js/2.c294578c.chunk.js.LICENSE.txt": "/nelson-johns-react-profile/static/js/2.c294578c.chunk.js.LICENSE.txt",
+    "static/js/2.b60d3807.chunk.js.LICENSE.txt": "/nelson-johns-react-profile/static/js/2.b60d3807.chunk.js.LICENSE.txt",
     "static/media/FitnessTracker.9a507b41.png": "/nelson-johns-react-profile/static/media/FitnessTracker.9a507b41.png",
     "static/media/Headshot2.a912c43b.png": "/nelson-johns-react-profile/static/media/Headshot2.a912c43b.png",
     "static/media/index.css": "/nelson-johns-react-profile/static/media/SourceSerifPro-Regular.6f22301c.ttf",
@@ -27,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.d68dafd2.js",
     "static/css/2.b5ddc713.chunk.css",
-    "static/js/2.c294578c.chunk.js",
+    "static/js/2.b60d3807.chunk.js",
     "static/css/main.a9f55ad3.chunk.css",
-    "static/js/main.eae8d4bf.chunk.js"
+    "static/js/main.ad6d466b.chunk.js"
   ]
 }
