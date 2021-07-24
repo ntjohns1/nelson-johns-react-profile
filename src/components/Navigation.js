@@ -1,40 +1,42 @@
 import React from 'react';
 import { Nav, Container } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 const styles = {
-	link: {
+	navLinkActive: {
 		color: '#FFFFFF',
-		fontFamily: 'LibreFrankilin'
+		fontFamily: 'LibreFranklin'
+	},
+	navLink: {
+		color: '#ffffffb4',
+		fontFamily: 'LibreFranklin'
 	}
 }
 
 export default function Navigation({ currentPage, handlePageChange }) {
 	return (
-		<Container>
 			<Nav>
 				<Nav.Link
 					onClick={() => handlePageChange('/')}
-					className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-					style={styles.link}>About Me
+					style={currentPage === '/' ? styles.navLinkActive : styles.navLink }>
+						About Me
 				</Nav.Link>
 				<Nav.Link
 					onClick={() => handlePageChange('work')}
-					className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-					style={styles.link}>Portfolio</Nav.Link>
+					style={currentPage === 'work' ? styles.navLinkActive : styles.navLink }>
+					Portfolio
+				</Nav.Link>
 				<Nav.Link
 					onClick={() => handlePageChange('contact')}
-					className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-					style={styles.link}>
+					style={currentPage === 'contact' ? styles.navLinkActive : styles.navLink }>
 					Contact
 				</Nav.Link>
 				<Nav.Link
 					onClick={() => handlePageChange('resume')}
-					className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-					style={styles.link}>
+					style={currentPage === 'resume' ? styles.navLinkActive : styles.navLink }>
 					Resume
 				</Nav.Link>
 			</Nav>
-		</Container>
 	);
 };
 
