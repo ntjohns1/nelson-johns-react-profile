@@ -1,32 +1,34 @@
 {
   "files": {
     "main.css": "/nelson-johns-react-profile/static/css/main.a9f55ad3.chunk.css",
-    "main.js": "/nelson-johns-react-profile/static/js/main.a5331e69.chunk.js",
-    "main.js.map": "/nelson-johns-react-profile/static/js/main.a5331e69.chunk.js.map",
+    "main.js": "/nelson-johns-react-profile/static/js/main.eae8d4bf.chunk.js",
+    "main.js.map": "/nelson-johns-react-profile/static/js/main.eae8d4bf.chunk.js.map",
     "runtime-main.js": "/nelson-johns-react-profile/static/js/runtime-main.d68dafd2.js",
     "runtime-main.js.map": "/nelson-johns-react-profile/static/js/runtime-main.d68dafd2.js.map",
     "static/css/2.b5ddc713.chunk.css": "/nelson-johns-react-profile/static/css/2.b5ddc713.chunk.css",
-    "static/js/2.e01af28b.chunk.js": "/nelson-johns-react-profile/static/js/2.e01af28b.chunk.js",
-    "static/js/2.e01af28b.chunk.js.map": "/nelson-johns-react-profile/static/js/2.e01af28b.chunk.js.map",
+    "static/js/2.c294578c.chunk.js": "/nelson-johns-react-profile/static/js/2.c294578c.chunk.js",
+    "static/js/2.c294578c.chunk.js.map": "/nelson-johns-react-profile/static/js/2.c294578c.chunk.js.map",
+    "9bc31d9a6080b8494f67d4a538ef6ecd.js": "/nelson-johns-react-profile/9bc31d9a6080b8494f67d4a538ef6ecd.js",
+    "9bc31d9a6080b8494f67d4a538ef6ecd.js.LICENSE.txt": "/nelson-johns-react-profile/9bc31d9a6080b8494f67d4a538ef6ecd.js.LICENSE.txt",
     "index.html": "/nelson-johns-react-profile/index.html",
     "static/css/2.b5ddc713.chunk.css.map": "/nelson-johns-react-profile/static/css/2.b5ddc713.chunk.css.map",
     "static/css/main.a9f55ad3.chunk.css.map": "/nelson-johns-react-profile/static/css/main.a9f55ad3.chunk.css.map",
-    "static/js/2.e01af28b.chunk.js.LICENSE.txt": "/nelson-johns-react-profile/static/js/2.e01af28b.chunk.js.LICENSE.txt",
+    "static/js/2.c294578c.chunk.js.LICENSE.txt": "/nelson-johns-react-profile/static/js/2.c294578c.chunk.js.LICENSE.txt",
     "static/media/FitnessTracker.9a507b41.png": "/nelson-johns-react-profile/static/media/FitnessTracker.9a507b41.png",
     "static/media/Headshot2.a912c43b.png": "/nelson-johns-react-profile/static/media/Headshot2.a912c43b.png",
     "static/media/index.css": "/nelson-johns-react-profile/static/media/SourceSerifPro-Regular.6f22301c.ttf",
     "static/media/MusicNotes.aa71594b.png": "/nelson-johns-react-profile/static/media/MusicNotes.aa71594b.png",
+    "static/media/NelsonJohnsResume.d44cd884.pdf": "/nelson-johns-react-profile/static/media/NelsonJohnsResume.d44cd884.pdf",
     "static/media/NoteTaker.58e79a9c.png": "/nelson-johns-react-profile/static/media/NoteTaker.58e79a9c.png",
     "static/media/StockNews.52368601.png": "/nelson-johns-react-profile/static/media/StockNews.52368601.png",
     "static/media/TTAH.879479ea.png": "/nelson-johns-react-profile/static/media/TTAH.879479ea.png",
-    "static/media/TechBlog.7161d8f8.png": "/nelson-johns-react-profile/static/media/TechBlog.7161d8f8.png",
-    "static/media/portfolioResume.cb2eb47e.pdf": "/nelson-johns-react-profile/static/media/portfolioResume.cb2eb47e.pdf"
+    "static/media/TechBlog.7161d8f8.png": "/nelson-johns-react-profile/static/media/TechBlog.7161d8f8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d68dafd2.js",
     "static/css/2.b5ddc713.chunk.css",
-    "static/js/2.e01af28b.chunk.js",
+    "static/js/2.c294578c.chunk.js",
     "static/css/main.a9f55ad3.chunk.css",
-    "static/js/main.a5331e69.chunk.js"
+    "static/js/main.eae8d4bf.chunk.js"
   ]
 }
