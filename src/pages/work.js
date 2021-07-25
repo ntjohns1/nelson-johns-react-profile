@@ -18,7 +18,7 @@ const projects = [
     {
         name: 'Tabletop Auction House',
         image: ttah,
-        deployed: 'https://github.com/smakela13/tabletop-auction-house-react-edition',
+        deployed: 'https://tabletop-auction-house-2.herokuapp.com/',
         repo: 'https://github.com/smakela13/tabletop-auction-house-react-edition'
     },
     {
