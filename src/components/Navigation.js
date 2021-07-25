@@ -14,30 +14,30 @@ const styles = {
 
 export default function Navigation({ currentPage, handlePageChange }) {
 	return (
-
+		<div>
 			<Nav>
 				<Nav.Link
 					onClick={() => handlePageChange('/')}
-					style={currentPage === '/' ? styles.navLinkActive : styles.navLink }>
-						About Me
+					style={currentPage === '/' ? styles.navLinkActive : styles.navLink}>
+					About Me
 				</Nav.Link>
 				<Nav.Link
 					onClick={() => handlePageChange('work')}
-					style={currentPage === 'work' ? styles.navLinkActive : styles.navLink }>
+					style={currentPage === 'work' ? styles.navLinkActive : styles.navLink}>
 					Portfolio
 				</Nav.Link>
 				<Nav.Link
 					onClick={() => handlePageChange('contact')}
-					style={currentPage === 'contact' ? styles.navLinkActive : styles.navLink }>
+					style={currentPage === 'contact' ? styles.navLinkActive : styles.navLink}>
 					Contact
 				</Nav.Link>
 				<Nav.Link
 					onClick={() => handlePageChange('resume')}
-					style={currentPage === 'resume' ? styles.navLinkActive : styles.navLink }>
+					style={currentPage === 'resume' ? styles.navLinkActive : styles.navLink}>
 					Resume
 				</Nav.Link>
 			</Nav>
-			
+		</div>
 	);
 };
 

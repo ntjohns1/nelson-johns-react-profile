@@ -12,13 +12,13 @@ export default function Header({ currentPage, handlePageChange }) {
     return (
         <Navbar className='navbar' expand='lg'>
             <Container className='d-flex justify-content-center'>
-                <div className='flex-column justify-content-center'>
+                <div className='flex-column align-items text-center'>
                     <Navbar.Brand 
                         onClick={() => handlePageChange('/')}
                         className='p-0 navbar-heading'
                         style={styles.navTxt}>
-                        Nelson Johns
-                    </Navbar.Brand><br />
+                            Nelson Johns
+                        </Navbar.Brand><br />
                     <Navbar.Text href='/'
                         onClick={() => handlePageChange('/')}
                         className='p-0 navbar-txt'
