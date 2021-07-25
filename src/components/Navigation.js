@@ -1,6 +1,5 @@
 import React from 'react';
 import { Nav, Container } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
 
 const styles = {
 	navLinkActive: {
@@ -15,6 +14,7 @@ const styles = {
 
 export default function Navigation({ currentPage, handlePageChange }) {
 	return (
+
 			<Nav>
 				<Nav.Link
 					onClick={() => handlePageChange('/')}
@@ -37,6 +37,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
 					Resume
 				</Nav.Link>
 			</Nav>
+			
 	);
 };
 

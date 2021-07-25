@@ -25,11 +25,10 @@ export default function Header({ currentPage, handlePageChange }) {
                         style={styles.navTxt}>
                         Full Stack Web Developer
                     </Navbar.Text>
-
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-                    </Navbar.Collapse>
+                    </Navbar.Collapse>        
                 </div>
             </Container>
         </Navbar>
