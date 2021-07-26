@@ -50,7 +50,7 @@ export default function ContactForm() {
   };
 
   return (
-    <Container >
+    <Container className='mb-3'>
       <Card>
         <Card.Body>
         <Card.Title>Contact Me</Card.Title>

@@ -9,8 +9,8 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 export default function Resume() {
   return (
-    <Container className='d-flex justify-content-center'>
-          <Document file={pdf}  onLoadError={console.error} className='shadow-lg p-3 mb-5 bg-white rounded'>
+    <Container className='mb-5 d-flex justify-content-center'>
+          <Document file={pdf}  onLoadError={console.error} className='shadow-lg p-3 bg-white rounded'>
             <Page pageNumber={1} />
           </Document>
     </Container>

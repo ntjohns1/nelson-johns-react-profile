@@ -10,7 +10,7 @@ const cardStyle = {
 export default function Bio() {
     return (
         <Container>
-        <Card className='text-center'>
+        <Card className='mb-3 text-center'>
             <Card.Body>
             <Card.Img style={cardStyle} className="mb-3" variant="top" src={headshot} alt='Headshot' />
                 <Card.Text>
