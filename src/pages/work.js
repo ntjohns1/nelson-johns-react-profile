@@ -59,7 +59,7 @@ const renderProjects = () => {
 
 export default function Work() {
     return (
-        <Container className='mb-3'>
+        <Container className='mb-3' fluid>
             <CardGroup id="work">
                 <Row xs={1} md={2}>
                     {renderProjects()}

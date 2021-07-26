@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Container } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
 
 const styles = {
 	navLinkActive: {
