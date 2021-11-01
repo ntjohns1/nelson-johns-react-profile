@@ -53,7 +53,8 @@ export default function ContactForm() {
     <Container className='mb-3'>
       <Card>
         <Card.Body>
-        <Card.Title>Contact Me</Card.Title>
+        <Card.Title className='card-text'>Contact Me: <br/> nelsontjohns@gmail.com</Card.Title>
+        <Card.Text className='card-text'>Or Fill Out the Form:</ Card.Text>
       <Form id='contactForm'>
         <Form.Group controlId="formUserName">
           {/* <Form.Label>First Name</Form.Label> */}

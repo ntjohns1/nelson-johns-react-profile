@@ -22,6 +22,9 @@
   font-family: 'LibreFranklin';
   font-size: 24px;
 }
+.card-text {
+  font-family: "SourceSerifPro";
+}
 
 p {
   font-family: "SourceSerifPro";

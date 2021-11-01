@@ -13,8 +13,10 @@ const Project = ({ project }) => {
                             <Card.Img src={project.image} alt={project.description}></Card.Img>
                         </a>
                     </Card.Body>
-                    <Card.Footer className="d-flex justify-content-center">
-                        <a className='font-face-ssp' href={project.repo}><FontAwesomeIcon icon={['fab', 'github']} size='2x' /></a>
+                    <Card.Footer className="text-center card-text">
+                        <Card.Text>{project.description}</Card.Text>
+                        <Card.Text>{project.tech}</Card.Text>
+                        <a className='font-face-ssp ' href={project.repo}><FontAwesomeIcon icon={['fab', 'github']} size='2x' /></a>
                     </Card.Footer>
                 </Card>
             </Col>
