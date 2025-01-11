@@ -2,7 +2,7 @@
   "name": "profile-2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ntjohns1.github.io/nelson-johns-react-profile/",
+  "homepage": "https://www.nelsonjohns.com",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
