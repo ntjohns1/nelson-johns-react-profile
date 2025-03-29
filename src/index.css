@@ -1,25 +1,18 @@
-body {
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+
+  --rich-black: #001219ff;
+  --midnight-green: #005f73ff;
+  --dark-cyan: #0a9396ff;
+  --tiffany-blue: #94d2bdff;
+  --vanilla: #e9d8a6ff;
+  --gamboge: #ee9b00ff;
+  --alloy-orange: #ca6702ff;
+  --rust: #bb3e03ff;
+  --rufous: #ae2012ff;
+  --auburn: #9b2226ff;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-@font-face {
-  font-family: 'LibreFranklin';
-  src: local('Libre_Franklin'),
-   url('./fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf') format('truetype');
-   font-weight: 900;
- }
-@font-face {
-  font-family: 'SourceSerifPro';
-  src: local('SourceSerifPro'),
-   url('./fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf') format('truetype');
-   font-weight: normal;
- }

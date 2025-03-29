@@ -1,59 +1,41 @@
 {
-  "name": "profile-2",
-  "version": "0.1.0",
+  "name": "nelson-johns-portfolio",
   "private": true,
+  "version": "0.1.0",
+  "type": "module",
   "homepage": "https://www.nelsonjohns.com",
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-brands-svg-icons": "^5.15.3",
-    "@fortawesome/free-regular-svg-icons": "^5.15.3",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
-    "@react-pdf/renderer": "^2.0.16",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "bootstrap": "^5.3.3",
-    "dotenv": "^10.0.0",
-    "emailjs-com": "^3.2.0",
-    "font-awesome": "^4.7.0",
-    "gh-pages": "^6.3.0",
-    "nodemon": "^2.0.12",
-    "react": "^17.0.2",
-    "react-bootstrap": "^1.6.1",
-    "react-dom": "^17.0.2",
-    "react-hook-form": "^7.9.0",
-    "react-icons": "^4.2.0",
-    "react-pdf": "^9.2.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^5.0.1",
-    "styled-components": "^5.3.0",
-    "web-vitals": "^1.1.2"
-  },
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d dist"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.3.1",
+    "@mui/material": "^6.3.1",
+    "emailjs-com": "^3.2.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.1",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.1",
+    "styled-components": "^6.1.8"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.1.4"
   }
 }
