@@ -2,6 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Button from "@mui/material/Button";
+import { NameModelCanvas } from './NameModelCanvas';
 
 const WelcomeSection = () => {
     return (
@@ -18,9 +19,7 @@ const WelcomeSection = () => {
                 padding: 2,
             }}
         >
-            <Typography variant="h1" sx={{ fontSize: '3.5rem', mb: 2, color: 'var(--tiffany-blue)' }}>
-                Nelson Johns
-            </Typography>
+            <NameModelCanvas />
             <Typography variant="subtitle1" sx={{ mb: 4, color: 'var(--dark-cyan)' }}>
                 Full-Stack Developer / Test Engineer
             </Typography>
