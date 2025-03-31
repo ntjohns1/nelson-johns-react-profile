@@ -4,7 +4,7 @@ import { useFrame } from '@react-three/fiber';
 
 export function NameModel() {
   const group = useRef();
-  const { nodes, materials, animations } = useGLTF('/models/NameModel.glb');
+  const { nodes, materials, animations } = useGLTF('./models/NameModel.glb');
   const { actions } = useAnimations(animations, group);
 
   useEffect(() => {
@@ -34,4 +34,4 @@ export function NameModel() {
   );
 }
 
-useGLTF.preload('/models/NameModel.glb');
+useGLTF.preload('./models/NameModel.glb');
