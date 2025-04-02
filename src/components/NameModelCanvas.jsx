@@ -11,7 +11,7 @@ export function NameModelCanvas() {
           <Stage environment="city" intensity={0.6} adjustCamera={false}>
             <NameModel />
           </Stage>
-          <OrbitControls enableRotate={true} enableZoom={false} autoRotate={false} />
+          <OrbitControls  enableZoom={true} autoRotate={false} />
         </Suspense>
       </Canvas>
     </div>
