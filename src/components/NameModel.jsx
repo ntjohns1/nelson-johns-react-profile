@@ -2,7 +2,7 @@ import { useRef, useEffect } from 'react';
 import { useGLTF, useAnimations } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 
-export function NameModel() {
+export function NameModel({ isMobile }) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF('./models/NameModel.glb');
   const { actions } = useAnimations(animations, group);
@@ -26,6 +26,19 @@ export function NameModel() {
       console.log('No animations found in the model');
     }
   }, [actions, animations]);
+
+  // Adjust model position and scale based on mobile
+  useEffect(() => {
+    if (group.current) {
+      if (isMobile) {
+        group.current.scale.set(0.8, 0.8, 0.8);
+        group.current.position.y = -0.2;
+      } else {
+        group.current.scale.set(1, 1, 1);
+        group.current.position.y = 0;
+      }
+    }
+  }, [isMobile]);
 
   return (
     <group ref={group}>
