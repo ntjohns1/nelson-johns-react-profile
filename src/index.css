@@ -1,7 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-
-
+  /* Enhanced color palette with accent colors */
   --rich-black: #001219ff;
   --midnight-green: #005f73ff;
   --dark-cyan: #0a9396ff;
@@ -12,7 +10,64 @@
   --rust: #bb3e03ff;
   --rufous: #ae2012ff;
   --auburn: #9b2226ff;
+  --accent-teal: #00c9a7;
+  --accent-orange: #ff7e67;
+  --gradient-end: rgba(0, 18, 25, 1);
+  --gradient-start: rgba(0, 95, 115, 0.8);
+  
+  /* Typography */
+  --heading-font: 'Libre Franklin', sans-serif;
+  --body-font: 'Source Serif Pro', serif;
+  
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--body-font);
+}
+
+/* Font imports */
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url('./fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  src: url('./fonts/Libre_Franklin/LibreFranklin-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('./fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('./fonts/Source_Serif_Pro/SourceSerifPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('./fonts/Source_Serif_Pro/SourceSerifPro-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes glowEffect {
+  0% { box-shadow: 0 0 5px rgba(0, 201, 167, 0.5); }
+  50% { box-shadow: 0 0 15px rgba(0, 201, 167, 0.8); }
+  100% { box-shadow: 0 0 5px rgba(0, 201, 167, 0.5); }
 }
 
