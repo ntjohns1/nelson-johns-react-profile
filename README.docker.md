@@ -1,4 +1,4 @@
-# Docker Deployment for Nelson Johns React Profile
+sudo docker logs nelson-johns-portfolio# Docker Deployment for Nelson Johns React Profile
 
 This document provides instructions for deploying the React application using Docker.
 
