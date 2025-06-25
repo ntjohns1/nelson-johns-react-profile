@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import Sidebar from './components/Sidebar';
 import WelcomeSection from './components/WelcomSection';
 import Home from './pages/Home';
+import LessonsList from './components/LessonsList';
 import { theme } from './theme';
 
 const App = () => {
@@ -22,6 +23,9 @@ const App = () => {
           <WelcomeSection />
           <Box id="home" sx={{ minHeight: '100vh', py: 4 }}>
             <Home />
+          </Box>
+          <Box id="lessons" sx={{ minHeight: '50vh', py: 4, px: 4 }}>
+            <LessonsList />
           </Box>
           {/* Other sections will be added here */}
         </Box>

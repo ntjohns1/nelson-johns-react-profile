@@ -10,4 +10,13 @@ export default defineConfig({
     assetsDir: 'assets',
   },
   publicDir: 'public',
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8080',
+        changeOrigin: true,
+        secure: false,
+      }
+    }
+  }
 })
