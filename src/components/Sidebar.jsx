@@ -11,6 +11,7 @@ import CodeIcon from '@mui/icons-material/Code';
 import WorkIcon from '@mui/icons-material/Work';
 import PersonIcon from '@mui/icons-material/Person';
 import EmailIcon from '@mui/icons-material/Email';
+import ApiIcon from '@mui/icons-material/Api';
 import { motion } from 'framer-motion';
 
 const MotionBox = motion.create(Box);
@@ -195,6 +196,30 @@ const Sidebar = () => {
             }}
           >
             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>Work</Box>
+          </MotionButton>
+
+          <MotionButton 
+            variants={itemVariants}
+            href="#api-docs" 
+            color="inherit"
+            startIcon={<ApiIcon />}
+            sx={{
+              display: 'flex',
+              flexDirection: { xs: 'column', sm: 'row' },
+              alignItems: 'center',
+              justifyContent: 'center',
+              padding: '10px',
+              borderRadius: '8px',
+              width: '90%',
+              transition: 'all 0.3s ease',
+              backgroundColor: activeSection === 'api-docs' ? 'rgba(0, 201, 167, 0.2)' : 'transparent',
+              '&:hover': {
+                backgroundColor: 'rgba(0, 201, 167, 0.1)',
+                transform: 'translateY(-2px)',
+              },
+            }}
+          >
+            <Box sx={{ display: { xs: 'none', sm: 'block' } }}>API</Box>
           </MotionButton>
 
           <MotionButton 

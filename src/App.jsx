@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar';
 import WelcomeSection from './components/WelcomSection';
 import Home from './pages/Home';
 import LessonsList from './components/LessonsList';
+import ApiDocs from './components/ApiDocs/ApiDocs';
 import { theme } from './theme';
 
 const App = () => {
@@ -26,6 +27,9 @@ const App = () => {
           </Box>
           <Box id="lessons" sx={{ minHeight: '50vh', py: 4, px: 4 }}>
             <LessonsList />
+          </Box>
+          <Box id="api-docs" sx={{ minHeight: '100vh', py: 4, px: 4 }}>
+            <ApiDocs />
           </Box>
           {/* Other sections will be added here */}
         </Box>
